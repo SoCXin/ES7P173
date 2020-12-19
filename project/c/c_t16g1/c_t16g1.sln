@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# HRIDE Solution File, Format Version 11.00
+Project("{39F91901-BA3E-4766-9ADB-AC16DDCC0D9C}") = "c_t16g1", "c_t16g1\c_t16g1.hrccproj", "{E30F0369-4ADA-4F69-9E27-8E9195FBE018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E30F0369-4ADA-4F69-9E27-8E9195FBE018}.Debug|x86.ActiveCfg = Debug|x86
+		{E30F0369-4ADA-4F69-9E27-8E9195FBE018}.Debug|x86.Build.0 = Debug|x86
+		{E30F0369-4ADA-4F69-9E27-8E9195FBE018}.Release|x86.ActiveCfg = Release|x86
+		{E30F0369-4ADA-4F69-9E27-8E9195FBE018}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

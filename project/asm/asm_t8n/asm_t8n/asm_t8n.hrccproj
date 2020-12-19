@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28fdd8aa-83cf-4729-a69e-72189ce19111}</ProjectGuid>
+    <ProjectType>HASM</ProjectType>
+    <ChipType>ES7P1732P4SF</ChipType>
+    <ChipConfig>A027</ChipConfig>
+    <TargetPath>debug\</TargetPath>
+    <HasmInclude>
+    </HasmInclude>
+    <HasmError>False</HasmError>
+    <HasmList>False</HasmList>
+    <OBJ>True</OBJ>
+    <HasmMap>False</HasmMap>
+    <CS>True</CS>
+    <MP>False</MP>
+    <OutputMessageType>Errors only</OutputMessageType>
+    <RadixFormat>hex</RadixFormat>
+    <NT>True</NT>
+    <OL>True</OL>
+    <HlinkError>False</HlinkError>
+    <HlinkMap>False</HlinkMap>
+    <HlinkList>False</HlinkList>
+    <HlinkExtraOption>
+    </HlinkExtraOption>
+    <AssemblyName>asm_t8n</AssemblyName>
+    <Name>asm_t8n</Name>
+    <RootNamespace>asm_t8n</RootNamespace>
+    <Crystal />
+    <watch1 />
+    <ToolChain>HRCC v1.2.0.87</ToolChain>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>debug\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="t8n.asm">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(registry:HKEY_CURRENT_USER\Software\ICHAIER\HRIDE4.0\1.0_Config\MSBuild\SafeImports@HRCC)" />
+</Project>

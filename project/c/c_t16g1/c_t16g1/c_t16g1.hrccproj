@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e30f0369-4ada-4f69-9e27-8e9195fbe018}</ProjectGuid>
+    <ProjectType>HRCC</ProjectType>
+    <ChipType>ES7P1732P4SF</ChipType>
+    <ChipConfig>A027</ChipConfig>
+    <TargetPath>debug\</TargetPath>
+    <HiccInclude>
+    </HiccInclude>
+    <HiccError>False</HiccError>
+    <PredefinitionMacro>
+    </PredefinitionMacro>
+    <FDD>True</FDD>
+    <LFUNC>True</LFUNC>
+    <USPTR>True</USPTR>
+    <LPTR>True</LPTR>
+    <FA>True</FA>
+    <HS>True</HS>
+    <HrccError>False</HrccError>
+    <HrccOptimizationSelect>O0</HrccOptimizationSelect>
+    <HrccExtraOption>
+    </HrccExtraOption>
+    <BAS>True</BAS>
+    <ARGU>True</ARGU>
+    <SD>True</SD>
+    <HrcoError>False</HrcoError>
+    <HrcoExtraOption>
+    </HrcoExtraOption>
+    <HasmInclude>
+    </HasmInclude>
+    <HasmError>False</HasmError>
+    <HasmList>False</HasmList>
+    <OBJ>True</OBJ>
+    <HasmMap>False</HasmMap>
+    <CS>True</CS>
+    <MP>False</MP>
+    <OutputMessageType>Errors only</OutputMessageType>
+    <RadixFormat>hex</RadixFormat>
+    <NT>True</NT>
+    <OL>True</OL>
+    <HlinkError>False</HlinkError>
+    <HlinkMap>False</HlinkMap>
+    <HlinkList>False</HlinkList>
+    <HlinkExtraOption>
+    </HlinkExtraOption>
+    <AssemblyName>c_t16g1</AssemblyName>
+    <Name>c_t16g1</Name>
+    <RootNamespace>c_t16g1</RootNamespace>
+    <Crystal />
+    <watch1 />
+    <ToolChain>HRCC v1.2.0.87</ToolChain>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>debug\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="t16g1.c">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(registry:HKEY_CURRENT_USER\Software\ICHAIER\HRIDE4.0\1.0_Config\MSBuild\SafeImports@HRCC)" />
+</Project>

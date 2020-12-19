@@ -28,4 +28,4 @@
 
 [ES7P173](https://github.com/SoCXin/ES7P173)
 
-###  [SoC.芯](http://www.SoC.Xin)
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)

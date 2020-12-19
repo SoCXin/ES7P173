@@ -1,14 +1,28 @@
 {
-    "name":"ES7P173",
     "type":"MCU",
-    "peripheral": ["ADC","TIM"],
+    "name":"ES7P173",
+    "tags": ["OTP","LOWPIN"],
+    "series":["ES7P1732P4RF","ES7P1732P4SF","ES7P1731P4SD"],
+    "description":"Eastsoft 8bit RISC OTP MCU",
+    "peripheral": ["ADC","TIM","PWM"],
     "package":["SSOP20","SOP20","SOP16"],
+    "encryption": ["OTP"],
     "SRAM":128,
     "OTP":4032,
     "Core": {
         "num": 1,
         "architecture":"RISC",
         "Freq":16
+    },
+    "Level": {
+        "main":1,
+        "sub":12,
+        "price":0.7
+    },
+    "GPIO": {
+        "num": [13,17],
+        "irq": 4,
+        "more":["LIN","IrDA"]
     },
     "ADC": {
         "num": 1,
@@ -17,16 +31,30 @@
         "rate": 1024
     },
     "TIM": {
-        "resolution":[16,16,16,16,32],
-        "rate": 1024
+        "resolution":[8,8,8,8,16]
     },
-    "RCC": {
-        "HSI": 16384,
-        "LSI": 32,
-        "HSE": [1024,20480],
-        "PLL": [32768,49152],
-        "accuracy": 0.02,
-        "rate": 1024
+    "PWM": {
+        "num": 4,
+        "resolution": 8,
+        "rate": 256
+    },
+    "CLK": {
+        "HSE": [1000,16000],
+        "HSI": [16000],
+        "LSI": [32],
+        "PLL": [16000,16000],
+        "DIV": [1,128],
+        "accuracy": 0.02
+    },
+    "PWR": {
+        "VDD": [3000,5500],
+        "PVD": [1820,1810],
+        "IDD": [2.21,14.31],
+        "Imax": 120
+    },
+    "EMC": {
+        "HSE": [2000,24000],
+        "ESD": [31]
     },
     "vendor":"Eastsoft",
     "url":"http://www.SoC.xin/ES7P173",

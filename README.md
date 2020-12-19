@@ -1,16 +1,31 @@
-﻿# [MT2503](https://github.com/sochub/MT2503)
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### 厂商：[mediatek](https://github.com/sochub/mediatek)
-#### 内核：[ARM-7EJ-S](https://github.com/sochub/ARM)
-#### 芯片定级：[Level](https://github.com/sochub/Level)
-## [描述](https://github.com/sochub/MT2503/wiki) 
+﻿# [ES7P173](https://github.com/SoCXin/ES7P173)
 
-联发科技[MT2503](https://www.mediatek.com/products/nbIot/MT2503) 基于高度集成的超小型系统级封装，整合蓝牙3.0、多星系GNSS系统和2G基带，搭载集成内存的ARMv7微控制
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-CPU Frequency:260MHz
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[Eastsoft](http://www.essemi.com/)
+#### [Core](https://github.com/SoCXin/RISC)：[RISC](https://github.com/SoCXin/RISC)
+#### [Level](https://github.com/SoCXin/Level) ：16 MHz
 
-### [选型建议](https://github.com/sochub)
+## [HR8P506简介](https://github.com/SoCXin/ES7P173/wiki)
+
+[ES7P173](https://github.com/SoCXin/ES7P173) 自有架构，OTP产品
+
+[![sites](docs/ES7P173.png)](http://www.essemi.com/product/15.html)
+
+#### 关键特性
+
+* 12bit ADC
+* PGA
 
 
+### [资源收录](https://github.com/SoCXin/ES7P173)
 
-###  [SoC资源平台](http://www.qitas.cn)   
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[ES7P173](https://github.com/SoCXin/ES7P173)
+
+###  [SoC.芯](http://www.SoC.Xin)

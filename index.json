@@ -1,0 +1,36 @@
+{
+    "name":"ES7P173",
+    "type":"MCU",
+    "peripheral": ["ADC","TIM"],
+    "package":["SSOP20","SOP20","SOP16"],
+    "SRAM":128,
+    "OTP":4032,
+    "Core": {
+        "num": 1,
+        "architecture":"RISC",
+        "Freq":16
+    },
+    "ADC": {
+        "num": 1,
+        "channel": 6,
+        "resolution": 12,
+        "rate": 1024
+    },
+    "TIM": {
+        "resolution":[16,16,16,16,32],
+        "rate": 1024
+    },
+    "RCC": {
+        "HSI": 16384,
+        "LSI": 32,
+        "HSE": [1024,20480],
+        "PLL": [32768,49152],
+        "accuracy": 0.02,
+        "rate": 1024
+    },
+    "vendor":"Eastsoft",
+    "url":"http://www.SoC.xin/ES7P173",
+    "repo":"https://github.com/SoCXin/ES7P173",
+    "homepage": "http://www.essemi.com/product/61.html",
+    "version":"1.0.0"
+}
